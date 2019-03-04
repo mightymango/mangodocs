@@ -13,7 +13,7 @@ collections:
       - label: "Layout"
         name: "layout"
         widget: "hidden"
-        default: "post"
+        default: "doc"
       - label: "Title"
         name: "title"
         widget: "string"
