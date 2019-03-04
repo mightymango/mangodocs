@@ -1,7 +1,10 @@
-release:
-  - date: Mar 1st 19
-    label: BETA
-    list:
-      - change: jksdhvaslkdfhjvsdfjkbg
-      - change: fsdfdsbfdsfbdsfb
-    title: Version 0.9.0
+# Changelog page source
+
+- title: Version 0.9.0
+  label: STABLE
+  date: Mar 1, 2019
+  list:
+  - First open beta version
+
+
+
