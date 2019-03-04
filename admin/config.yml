@@ -53,31 +53,16 @@ collections:
       - label: "Body"
         name: "body"
         widget: "markdown"
-  - name: "data"
-    label: "Data"
+  - label: "Pages"
+    name: "pages"
     files:
-      - label: "Changelog"
-        name: "changelog"
-        file: "_data/changelog.yml"
+      - label: "About Page"
+        name: "about"
+        file: "about.md"
         fields:
-          - label: "Release"
-            name: "release"
-            widget: list
-            fields:
-              - label: "Title"
-                name: "title"
-                widget: string
-              - label: "Label"
-                name: "label"
-                widget: string
-              - label: "Date"
-                name: "date"
-                widget: date
-                default: ""
-                format: "MMM Do YY"
-              - label: "List"
-                name: "list"
-                widget: list
-                fields:
-                  - {widget: string}
-
+          - label: Title
+            name: title
+            widget: string
+          - label: "Body"
+          name: "body"
+          widget: "markdown"         
