@@ -15,7 +15,7 @@ baseurl:            ""
 permalink:          /:title/
 
 # Site base hostname & protocol, e.g. http://example.com
-url:                "https://determined-volhard-54f051.netlify.com"
+url:                "https://livingstreets.mangodocs.online"
 
 # Site logo, image or text
 brand:
@@ -59,7 +59,7 @@ twitter_username: mightymangoltd
 
 # Default footer image settings
 footer:
-    copyright:      Made by a <a href="https://simonbarrett.com/">human</a> somewhere on the planet earth.
+    copyright:      Made by a <a href="https://simonbarrett.dev/">human</a> somewhere on the planet earth.
 
 # Disqus comments shortname, requires Disqus account https://disqus.com/
 disqus:
