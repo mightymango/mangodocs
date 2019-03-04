@@ -1,6 +1,7 @@
 ---
 layout: doc
 title: How To Setup Domain SSL With Github Pages
+subtitle: Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet, tempus metus quis, pharetra turpis.
 categories: [Getting Started, Troubleshooting]
 author: John Black
 tags: featured

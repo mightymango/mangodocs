@@ -5,9 +5,7 @@ title: News
 
 <div class="uk-section">
     <div class="uk-container uk-container-xsmall">
-
         <h1 class="uk-article-title">{{ page.title | escape }}</h1>
-
         {% for post in paginator.posts %}
         <div class="uk-card card-post uk-inline uk-border-rounded uk-width-1-1 uk-margin">
             <a class="uk-position-cover" href="{{ post.url | relative_url }}"></a>

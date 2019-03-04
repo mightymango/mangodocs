@@ -40,7 +40,7 @@ authors:
 
 # Social icons displayed in footer
 social:
-    email:          mailto:simon@mightymango.ltd
+    email:          simon@mightymango.ltd
     website:        https://mightymango.ltd
     facebook:       
     flickr:
@@ -92,6 +92,7 @@ plugins_dir:
   - jekyll-seo-tag
   - jekyll-gist
   - jekyll-avatar
+  - jekyll-email-protect
 exclude:
   - Gemfile
   - Gemfile.lock
