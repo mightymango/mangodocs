@@ -59,20 +59,22 @@ collections:
       - label: "Changelog"
         name: "changelog"
         file: "_data/changelog.yml"
-        fields:
-          - label: "Title"
-            name: "title"
-            widget: string
-          - label: "Label"
-            name: "label"
-            widget: string
-          - label: "Date"
-            name: "date"
-            widget: date
-            default: ""
-            format: "MMM Do YY"
-          - label: "List"
-            name: "list"
-            widget: list
-            fields:
-              - {label: "Change", name: "change", widget: string}
+        - label: "Release"
+          widget: list
+          fields:
+            - label: "Title"
+              name: "title"
+              widget: string
+            - label: "Label"
+              name: "label"
+              widget: string
+            - label: "Date"
+              name: "date"
+              widget: date
+              default: ""
+              format: "MMM Do YY"
+            - label: "List"
+              name: "list"
+              widget: list
+              fields:
+                - {label: "Change", name: "change", widget: string}
