@@ -1,6 +1,7 @@
 # MangoDocs
 ## A client documentation system
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a46cd3f8-c5f6-4e92-8c1e-77389eb2fb00/deploy-status)](https://app.netlify.com/sites/determined-volhard-54f051/deploys)
+
 Based on Desk which was developed by [Ivan Chromjak](https://ivanchromjak.com).
 
 
