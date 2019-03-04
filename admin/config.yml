@@ -59,6 +59,7 @@ collections:
       - label: "Changelog"
         name: "changelog"
         file: "_data/changelog.yml"
+        fields:
           - label: "Release"
             widget: list
             fields:
@@ -78,3 +79,4 @@ collections:
                 widget: list
                 fields:
                   - {label: "Change", name: "change", widget: string}
+
