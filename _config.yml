@@ -15,7 +15,7 @@ baseurl:            ""
 permalink:          /:title/
 
 # Site base hostname & protocol, e.g. http://example.com
-url:                "https://mightymango.github.io"
+url:                "https://determined-volhard-54f051.netlify.com"
 
 # Site logo, image or text
 brand:
