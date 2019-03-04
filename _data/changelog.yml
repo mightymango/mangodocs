@@ -1,6 +1,6 @@
 release:
   - date: Mar 1st 19
-    label: STABLE
+    label: BETA
     list:
       - change: jksdhvaslkdfhjvsdfjkbg
       - change: fsdfdsbfdsfbdsfb
