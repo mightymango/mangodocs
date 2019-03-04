@@ -61,6 +61,7 @@ collections:
         file: "_data/changelog.yml"
         fields:
           - label: "Release"
+            name: "release"
             widget: list
             fields:
               - label: "Title"
