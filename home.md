@@ -2,7 +2,7 @@
 layout: home
 hero:
     title: How Can We Help?
-    subtitle: Search or browse in depth articles and videos on everything Jekyll, from basic theme setup and hosting to customisation and development
+    subtitle: Search or browse in depth articles and videos on everything Jekyll, from basic theme setup and hosting to customisation and development - livingstreets
     image: imac.svg
     search: true
 categories:
