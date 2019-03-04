@@ -79,5 +79,5 @@ collections:
                 name: "list"
                 widget: list
                 fields:
-                  - {label: "Change", name: "change", widget: string}
+                  - {widget: string}
 
