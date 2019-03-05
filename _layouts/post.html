@@ -12,6 +12,8 @@ layout: default
                 {% include post-meta.html %}
             </div>
 
+            {% if page.comments %} {% include staticman.html %} {% endif %}
+            
             <div class="uk-article-content">
                 {{ content }}
                 {% include share.html %}
@@ -23,7 +25,6 @@ layout: default
 
             {% if site.disqus.shortname %} {% include disqus_comments.html %} {% endif %}
 
-            {% if page.comments %} {% include staticman.html %} {% endif %}
 
         </article>
 

@@ -32,6 +32,8 @@ layout: default
                     <div class="uk-article-meta uk-margin-top uk-margin-medium-bottom">
                         {% include post-meta.html %}
                     </div>
+                    
+                    {% if page.comments %} {% include staticman.html %} {% endif %}
 
                     <div class="article-content">
                         {{ content }}
