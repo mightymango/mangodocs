@@ -11,4 +11,4 @@ formspree:
 
 Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
 
-{% include map.html latitude="51.475207" longitude="-3.1864492" zoom="16" %}
+{% include map.html latitude="51.4752324" longitude="-3.1854363" zoom="16" %}
