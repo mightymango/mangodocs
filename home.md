@@ -19,8 +19,8 @@ section:
   display_section: true
 cta:
   title: Didn't find an answer to your question?
-  subtitle: Get in touch with us for details on additional services and custom work
-    pricing
+  subtitle: Get in touch with us for help or details on additional services and custom
+    work pricing.
   button_text: Contact Us
   button_url: "/contact/"
 
