@@ -15,9 +15,23 @@ sections:
 - type: jekyll-pages
   label: Pages
   create: all
+- type: heading
+  label: Data
 - type: document
   path: _data/changelog.yml
   label: Changelog
+- type: document
+  path: _data/navigation_docs.yml
+  label: Navigation (Docs)
+- type: document
+  path: _data/navigation_home.yml
+  label: Navigation (Home)
+- type: document
+  path: _data/navigation_header.yml
+  label: Navigation (Header)
+- type: document
+  path: _data/navigation_footer.yml
+  label: Navigation (Footer)
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
