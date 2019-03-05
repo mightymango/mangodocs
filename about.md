@@ -4,6 +4,9 @@ title: About
 permalink: "/about/"
 
 ---
+# The stuff we make...
+
+### We've been creating great digital 'things' for a long time now, some of it award winning.
 
 #### Web Apps & Websites
 
