@@ -44,7 +44,6 @@ paginate: 10
 paginate_path: "/news/:num/"
 post_assets: "/assets/posts/"
 image_assets: "/assets/img/"
-upload_assets: "/uploads"
 markdown: kramdown
 highlighter: rouge
 plugins_dir:
