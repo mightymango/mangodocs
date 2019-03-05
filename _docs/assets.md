@@ -5,6 +5,7 @@ subtitle: Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imp
 categories: [Getting Started, Troubleshooting]
 author: John Black
 tags: featured
+comments: true
 ---
 
 #### Sections in this article
