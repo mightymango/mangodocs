@@ -23,6 +23,18 @@ sections:
 - type: document
   path: _data/navigation_docs.yml
   label: Navigation (Docs)
+- type: document
+  path: _data/navigation_home.yml
+  label: Navigation (Home)
+  match: "**/*"
+- type: document
+  path: _data/navigation_header.yml
+  label: Navigation (Header)
+  match: "**/*"
+- type: document
+  path: _data/navigation_footer.yml
+  label: Navigation (Footer)
+  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
