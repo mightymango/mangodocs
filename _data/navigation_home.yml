@@ -1,7 +1,7 @@
 ---
 - title: Getting Started
   desc: Get your store up and running in just few easy steps
-  icon: paint-bucket
+  icon: settings
   doc: home
 - title: Orders, Products and Customers
   desc: Managing your account, creating new products and handling orders
