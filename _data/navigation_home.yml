@@ -4,7 +4,7 @@
   icon: settings
   doc: home
 - title: Account and Billing
-  desc: Managing your account, creating new users and exporting data
+  desc: Managing your account, creating new products and handling orders
   icon: credit-card
   doc: frontmatter
 - title: Troubleshooting
