@@ -7,8 +7,8 @@ formspree:
   redirect: "/thanks/"
 
 ---
-##### Morbi varius in accumsan blandit, elit ligula velit, luctus mattis ante nulla nulla.
+##### If you are not able to find the answer to your query, have a request for further support or are interested in us helping you with a project, you can contact us below.
 
-Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+We have experience in developing websites (both frontend and backend), iOS Apps and online shopping solutions.
 
 {% include map.html latitude="51.4752324" longitude="-3.1854363" zoom="16" %}
