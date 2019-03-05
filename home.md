@@ -4,7 +4,7 @@ hero:
   title: How Can We Help?
   subtitle: Search or browse articles on everything related to your store, from basic
     theme customisation to running your store.
-  image: imac.svg
+  image: "/uploads/mac.svg"
   search: true
 categories:
   columns: 3
