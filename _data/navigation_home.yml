@@ -5,7 +5,7 @@
   doc: home
 - title: Orders, Products and Customers
   desc: Managing your account, creating new products and handling orders
-  icon: credit-card
+  icon: cart
   doc: frontmatter
 - title: Troubleshooting
   desc: Answers to most common configuration issues
