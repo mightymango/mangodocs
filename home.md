@@ -16,6 +16,7 @@ featured:
 section:
   title: Need More?
   subtitle: This section displays optional page content lorem ipsum
+  display_section: false
 cta:
   title: Didn't find an answer to your question?
   subtitle: Get in touch with us for details on additional services and custom work
