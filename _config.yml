@@ -1,106 +1,63 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
-# Site title and description
-title:              MangoDocs
-description:        Client documentation system.
-
-# Site subpath, e.g. /blog
-baseurl:            ""
-
-# Permalink URLs structure, for permalink style options see: https://jekyllrb.com/docs/permalinks/
-permalink:          /:title/
-
-# Site base hostname & protocol, e.g. http://example.com
-url:                "https://livingstreets.mangodocs.online"
-
-# Site logo, image or text
+---
+title: MangoDocs
+description: A client documentation system
+baseurl: ''
+permalink: "/:title/"
+url: https://livingstreets.mangodocs.online
 brand:
-    image:          logo.svg  # e.g. logo.png, upload logo image file to /assets/img/ folder
-    text:           MangoDocs # if the above "logo:" image variable  is not set, this text logo is displayed instead
-    size:           64px
-
+  image: logo.svg
+  text: MangoDocs
+  size: 64px
 navbar:
-    mobile_left:    Navigate
-    mobile_right:   Menu
-
-# Default author settings
+  mobile_left: Navigate
+  mobile_right: Menu
 author:
-    name:           Simon Barrett
-    github:         mightymango    # Github username for avatar
-
-# Author settings, displayed on post and doc pages if front matter references author name e.g. author: peter
+  name: Simon Barrett
+  github: mightymango
 authors:
-    simon:
-        name:       Simon Barrett
-        github:     mightymango    # Github username for avatar
-
-# Social icons displayed in footer
+  simon:
+    name: Simon Barrett
+    github: mightymango
 social:
-    email:          simon@mightymango.ltd
-    website:        https://mightymango.ltd
-    facebook:       
-    flickr:
-    dribbble:
-    github:         https://github.com/mightymango
-    googleplus:
-    instagram:      
-    linkedin:
-    pinterest:
-    twitter:        https://twitter.com/MightyMangoLtd
-    vimeo:          
-    youtube:
-
-# Twitter share button
+  email: simon@mightymango.ltd
+  website: https://mightymango.ltd
+  facebook: 
+  flickr: 
+  dribbble: 
+  github: https://github.com/mightymango
+  googleplus: 
+  instagram: 
+  linkedin: 
+  pinterest: 
+  twitter: https://twitter.com/MightyMangoLtd
+  vimeo: 
+  youtube: 
 twitter_username: mightymangoltd
-
-# Default footer image settings
 footer:
-    copyright:      Made by a <a href="https://simonbarrett.dev/">human</a> somewhere on the planet earth.
-
-# Disqus comments shortname, requires Disqus account https://disqus.com/
+  copyright: Made by a <a href="https://simonbarrett.dev/">human</a> somewhere on
+    the planet earth.
 disqus:
-    shortname:      # 1234
-
-# Google analytics code, get your code here https://www.google.com/analytics/
-google_analytics:
-
-# Google maps API key, get your key here: https://developers.google.com/maps/documentation/javascript/get-api-key
+  shortname: 
+google_analytics: 
 google_maps_api_key: AIzaSyAwdNUqXQvtWSxpBW6ZOe_X5z5irh6el5o
-
-# Number of posts displayed on blog page
 paginate: 10
-
-# Blog path
-paginate_path:      "/news/:num/"
-
-# Path to post content assets directory i.e post images, pdfs etc
-post_assets:        /assets/posts/
-
-# Path to post content assets directory i.e post images, pdfs etc
-image_assets:        /assets/img/
-
-# Build settings
-markdown:           kramdown
-highlighter:        rouge
-
+paginate_path: "/news/:num/"
+post_assets: "/assets/posts/"
+image_assets: "/assets/img/"
+markdown: kramdown
+highlighter: rouge
 plugins_dir:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-gist
-  - jekyll-avatar
-  - jekyll-email-protect
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-gist
+- jekyll-avatar
+- jekyll-email-protect
 exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-
+- Gemfile
+- Gemfile.lock
+- node_modules
 sass:
-  style:            compressed
-
+  style: compressed
 collections:
   docs:
     output: true

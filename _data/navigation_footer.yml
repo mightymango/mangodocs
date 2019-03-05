@@ -1,5 +1,8 @@
 # Footer navigation links
 
+- title: About
+  url: /about/
+  
 - title: Help
   url: /
 
@@ -9,6 +12,4 @@
 - title: Contact
   url: /contact/
 
-- title: About
-  url: /about/
   

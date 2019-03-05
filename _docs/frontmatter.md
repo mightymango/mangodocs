@@ -1,7 +1,8 @@
 ---
+title: Settings up Jekyll on Github pages
 layout: doc
-title: Settings up Jekkyl on Github pages
-subtitle: Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet, tempus metus quis, pharetra turpis.
+subtitle: Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet,
+  tempus metus quis, pharetra turpis.
 tags: othertag
 author:
 ---
