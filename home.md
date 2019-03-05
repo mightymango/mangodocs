@@ -2,8 +2,8 @@
 layout: home
 hero:
   title: How Can We Help?
-  subtitle: Search or browse in depth articles and videos on everything Jekyll, from
-    basic theme setup and hosting to customisation and development
+  subtitle: Search or browse articles on everything related to your store, from basic
+    theme customisation to running your store.
   image: imac.svg
   search: true
 categories:
