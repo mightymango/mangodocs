@@ -1,4 +1,4 @@
-       {% assign comments = site.data.comments | where:"link", page.id  %}
+       {% assign comments = site.data.comments | where:"link", page.id | sort  %}
        {% if comments.size > 0 %}
        <div>
        	<h3 class="uk-margin-medium-top">Comments</h3>
@@ -40,7 +40,7 @@
 	            </div>
 	            <div>
 	                <input class="uk-button uk-button-primary uk-button-large uk-width-1-1 uk-border-rounded" type="submit" value="Post">
-	                <p class="text-grey"><small>Your comment will only be displayed once it has been processed by the system.</small></p>
+	                <p class="text-grey"><small>Your comment will only be displayed once it has been processed by the system. This may take a few minutes. Please refresh to view your post.</small></p>
 	            </div>
 	        </form>
       </div>
