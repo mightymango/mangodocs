@@ -1,5 +1,5 @@
        {% assign comments = site.data.comments | where:"link", page.id  %}
-       {% if comments.count > 0 %}
+       {% if comments.size > 0 %}
        <div>
        	<h3 class="uk-margin-medium-top">Comments</h3>
 				{% for comment in comments %}
