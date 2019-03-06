@@ -20,3 +20,35 @@
 .uk-sticky {
   opacity: 0.9;
 }
+
+.uk-comment {
+    border: solid 1px #dfe1e2;
+    border-radius: 3px;
+}
+
+.uk-comment:hover {
+    border-color: #a9aeb2;
+}
+
+.uk-comment-body {
+    padding: 10px;
+}
+
+.uk-comment-body>p {
+    font-size: 1.0rem;
+}
+
+.uk-comment-body>span {
+    color: #0F1214;
+}
+
+.uk-comment-header {
+    padding: 10px;
+}
+
+.uk-comment-footer {
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #dfe1e2
+}

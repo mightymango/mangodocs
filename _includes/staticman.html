@@ -1,18 +1,24 @@
-       
+       {% assign comments = site.data.comments | where:"link", page.id  %}
+       {% if comments.count > 0 %}
        <div>
-			{% assign comments = site.data.comments | sort %}
-				{% for comment in comments reversed %}
-				{{ comment.message | markdownify }}
+       	<h3 class="uk-margin-medium-top">Comments</h3>
+				{% for comment in comments %}
+				<div class="uk-comment uk-margin-medium-bottom">
+					<div class="uk-comment-body">
+					{{ comment.message | markdownify }}
+					</div>
+					<div class="uk-comment-footer"><small>Posted by: <strong>{{ comment.name }}</strong></small></div>
+				</div>
 			{% endfor %}
 		</div>
-
+		{% endif %}
        <button id="show_comment" class="uk-button uk-button-primary uk-button-large button-cta" href="{{ domain }}{{ page.cta.button_url }}">Add a comment</button>
 
        <div id="comment_form" style="display: none;">
 	       <h3 class="uk-margin-medium-top">Comment</h3>
 	        <form class="uk-form-stacked uk-margin-medium-top" method="POST" action="https://mightymango-staticman.herokuapp.com/v2/entry/mightymango/mangodocs/livingstreets/comments" accept-charset="UTF-8">
 	        <input name="options[redirect]" type="hidden" value="{{ site.url }}{{ page.url }}">
-	        <input name="options[slug]" type="hidden" value="{{ page.slug }}">
+	        <input name="options[slug]" type="hidden" value="">
 	        <input name="fields[link]" type="hidden" value="{{ page.id }}">
 	            <div class="uk-margin-medium-bottom">
 	                <label class="uk-form-label uk-margin-small-bottom" for="form-stacked-text">Name</label>
@@ -34,6 +40,7 @@
 	            </div>
 	            <div>
 	                <input class="uk-button uk-button-primary uk-button-large uk-width-1-1 uk-border-rounded" type="submit" value="Post">
+	                <p class="text-grey"><small>Your comment will only be displayed once it has been processed by the system.</small></p>
 	            </div>
 	        </form>
       </div>
