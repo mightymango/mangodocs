@@ -2,6 +2,7 @@
         <form class="uk-form-stacked uk-margin-medium-top" method="POST" action="https://mightymango-staticman.herokuapp.com/v2/entry/mightymango/mangodocs/livingstreets/comments" accept-charset="UTF-8">
         <input name="options[redirect]" type="hidden" value="{{ site.url }}{{ page.url }}">
         <input name="options[slug]" type="hidden" value="{{ page.slug }}">
+        <input name="fields[link]" type="hidden" value="{{ page.id }}">
             <div class="uk-margin-medium-bottom">
                 <label class="uk-form-label uk-margin-small-bottom" for="form-stacked-text">Name</label>
                 <div class="uk-form-controls">
