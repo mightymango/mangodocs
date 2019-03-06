@@ -17,6 +17,11 @@ sections:
   create: all
 - type: heading
   label: Data
+- type: directory
+  path: _data/comments
+  label: Comments
+  create: all
+  match: "**/*"
 - type: document
   path: _data/changelog.yml
   label: Changelog
