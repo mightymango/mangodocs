@@ -7,15 +7,13 @@ comments: true
 
 ---
 #### Sections in this article
-{:.no_toc}
-* TOC
-{:toc}
+{% include toc.html %}
 
 This article explains how to manage your store. It also provides an introduction to the Dashboard and the Sidebar.
 
 ## Accessing the admin area of your store
 
-To access the backend of your store you will need an Administrator's account. The admin area is accessed via:
+To access the backend of your store, you will need an Administrator's account. The admin area is accessed via:
 
 ```html
 https://livingstreets.shop/admin
@@ -23,9 +21,9 @@ https://livingstreets.shop/admin
 
 You will be asked to provide your email address and password.
 
-{% include image.html img="dashboard.png" style="wide" lightbox="true" alt="Alt for image" caption="Dashboard" %}
+{% include image.html img="dashboard.png" style="wide" lightbox="true" alt="Dashboard" caption="Dashboard" %}
 
-## Example Of Code Block
+## Dashboard
 
 In accumsan lacus ac neque maximus dictum. Phasellus eleifend leo id mattis bibendum. Curabitur et purus turpis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
 
@@ -40,7 +38,7 @@ In accumsan lacus ac neque maximus dictum. Phasellus eleifend leo id mattis bibe
 </head>
 ```
 
-## Text and Quote
+## Sidebar
 
 Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet, tempus metus quis, pharetra turpis. Phasellus at massa sit amet ante semper fermentum sed eget lectus. Quisque id dictum magna turpis.
 
