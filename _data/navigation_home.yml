@@ -2,7 +2,7 @@
 - title: Getting Started
   desc: Get your store up and running in just few easy steps
   icon: settings
-  doc: home
+  doc: admin
 - title: Orders, Products and Customers
   desc: Managing your account, creating new products and handling orders
   icon: cart
