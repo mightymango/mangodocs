@@ -1,5 +1,6 @@
 ---
 layout: home
+title: Home
 hero:
   title: How Can We Help?
   subtitle: Search or browse articles on everything related to your store, from basic
