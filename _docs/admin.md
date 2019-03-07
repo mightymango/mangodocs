@@ -25,7 +25,7 @@ https://livingstreets.shop/admin
 
 You will be asked to provide your email address and password.
 
-{% include image.html img="image1.png" style="wide" lightbox="true" alt="Alt for image" caption="Image in lightbox" %}
+{% include image.html img="dashboard.png" style="wide" lightbox="true" alt="Alt for image" caption="Dashboard" %}
 
 ## Example Of Code Block
 
