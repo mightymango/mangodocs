@@ -7,11 +7,9 @@ comments: true
 
 ---
 #### Sections in this article
-
 {:.no_toc}
-
 * TOC
-  {:toc}
+{:toc}
 
 This article explains how to manage your store. It also provides an introduction to the Dashboard and the Sidebar.
 
